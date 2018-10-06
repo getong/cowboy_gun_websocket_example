@@ -1,0 +1,6 @@
+-sname ws_server
+
+-setcookie ws_server_cookie
+
++K true
++A30

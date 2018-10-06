@@ -1,0 +1,6 @@
+-sname ws_client
+
+-setcookie ws_client_cookie
+
++K true
++A30
