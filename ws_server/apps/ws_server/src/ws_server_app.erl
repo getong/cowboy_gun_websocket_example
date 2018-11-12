@@ -15,6 +15,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
+    logger:error("start log here", []),
     Dispatch = cowboy_router:compile([
 		{'_', [
 				{"/websocket", cowboy_ws, []}
