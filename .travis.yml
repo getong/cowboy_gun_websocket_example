@@ -9,6 +9,6 @@ install:
 
 script:
     - cd ws_server
-    - REBAR3=../rebar3 make && make dialyzer
+    - REBAR3=../rebar3 make && make dialyzer && make xref
     - cd ../ws_client
-    - REBAR3=../rebar3 make && make dialyzer
+    - REBAR3=../rebar3 make && make dialyzer && make xref
