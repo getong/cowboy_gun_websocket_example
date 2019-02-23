@@ -11,6 +11,7 @@
  {<<"jiffy">>,{pkg,<<"jiffy">>,<<"0.15.2">>},0},
  {<<"kafka_protocol">>,{pkg,<<"kafka_protocol">>,<<"2.2.7">>},1},
  {<<"ranch">>,{pkg,<<"ranch">>,<<"1.7.1">>},1},
+ {<<"recon">>,{pkg,<<"recon">>,<<"2.4.0">>},0},
  {<<"snappyer">>,{pkg,<<"snappyer">>,<<"1.2.4">>},2},
  {<<"supervisor3">>,{pkg,<<"supervisor3">>,<<"1.1.8">>},1}]}.
 [
@@ -23,6 +24,7 @@
  {<<"jiffy">>, <<"DE266C390111FD4EA28B9302F0BC3D7472468F3B8E0ACEABFBEFA26D08CD73B7">>},
  {<<"kafka_protocol">>, <<"A737A5714874EBD4A82F198F79CB438CDA5D1054291B0B1C8F241448C332734D">>},
  {<<"ranch">>, <<"6B1FAB51B49196860B733A49C07604465A47BDB78AA10C1C16A3D199F7F8C881">>},
+ {<<"recon">>, <<"901FF78B39C754FB4D6FD72DCF0DBD398967BBD2E4D59C08D4D7AA44A73DE91D">>},
  {<<"snappyer">>, <<"6D739C534CD2339633127A2B40279BE71F149E5842C5363A4D88E66EFB7C1FEC">>},
  {<<"supervisor3">>, <<"5CF95C95342B589EC8D74689EEA0646C0A3EB92820241E0C2D0CA4C104DF92BC">>}]}
 ].
