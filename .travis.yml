@@ -2,7 +2,7 @@ sudo: false
 language: erlang
 
 otp_release:
-    - 21.3
+    - 21.3.1
 
 install:
    - wget -c https://github.com/erlang/rebar3/releases/download/3.9.0/rebar3 && chmod +x rebar3
