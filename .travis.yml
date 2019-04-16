@@ -5,10 +5,10 @@ otp_release:
     - 21.3.4
 
 install:
-   - wget -c https://github.com/erlang/rebar3/releases/download/3.9.0/rebar3 && chmod +x rebar3
+   - wget -c https://github.com/erlang/rebar3/releases/download/3.9.1/rebar3 && chmod +x rebar3
 
 script:
     - cd ws_server
-    - REBAR3=../rebar3 make && make dialyzer && make xref
+    - REBAR3=../rebar3 make && REBAR3=../rebar3 make dialyzer && REBAR3=../rebar3 make xref
     - cd ../ws_client
-    - REBAR3=../rebar3 make && make dialyzer && make xref
+    - REBAR3=../rebar3 make && REBAR3=../rebar3 make dialyzer && REBAR3=../rebar3 make xref

@@ -7,10 +7,10 @@ jobs:
       - checkout
       - run:
           name: download rebar3
-          command: wget -c https://github.com/erlang/rebar3/releases/download/3.9.0/rebar3 && chmod +x rebar3
+          command: wget -c https://github.com/erlang/rebar3/releases/download/3.9.1/rebar3 && chmod +x rebar3
       - run:
           name: change ws_server directory, make
-          command: cd ws_server/ && REBAR3=../rebar3 make && make dialyzer && make xref
+          command: cd ws_server/ && REBAR3=../rebar3 make && REBAR3=../rebar3 make dialyzer && REBAR3=../rebar3 make xref
       - run:
           name: change ws_client directory, make
-          command: cd ws_client/ && REBAR3=../rebar3 make && make dialyzer && make xref
+          command: cd ws_client/ && REBAR3=../rebar3 make && REBAR3=../rebar3 make dialyzer && REBAR3=../rebar3 make xref
