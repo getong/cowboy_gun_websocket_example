@@ -2,10 +2,10 @@ sudo: false
 language: erlang
 
 otp_release:
-    - 22.0.1
+    - 22.0.2
 
 install:
-   - wget -c https://github.com/erlang/rebar3/releases/download/3.10.0/rebar3 && chmod +x rebar3
+   - wget -c https://github.com/erlang/rebar3/releases/download/3.11.1/rebar3 && chmod +x rebar3
 
 script:
     - cd ws_server
