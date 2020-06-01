@@ -6,6 +6,6 @@ otp_release:
 
 script:
     - cd ws_server
-    - make && make dialyzer && make xref
+    - rebar3 update; make && make dialyzer && make xref
     - cd ../ws_client
     - make && make dialyzer && make xref
