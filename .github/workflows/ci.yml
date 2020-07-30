@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-     image: erlang:23.0.2
+     image: erlang:23.0.3
 
     steps:
       - uses: actions/checkout@v1.0.0
-      - name: download rebar3 and make
+      - name: make
         run: |
          cd ws_server
          make
