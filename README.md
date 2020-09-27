@@ -21,3 +21,12 @@ $ rebar3 shell
 2> Pid ! {send, "test string"}.
 3> Pid ! {send, <<"test binary">>}.
 ```
+
+## format erlang files:
+
+``` shell
+cd ws_client
+rebar3 fmt
+cd ../ws_server
+rebar3 fmt
+```
