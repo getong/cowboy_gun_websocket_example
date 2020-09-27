@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: erlang:23.0.3
+      - image: erlang:23.1.0.0
     steps:
       - checkout
       - run:
